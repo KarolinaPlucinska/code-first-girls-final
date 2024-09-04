@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./style.css" >
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6cc604e3d8.js" crossorigin="anonymous"></script>
+    <title>Travel First Girls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="poppins-regular">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navColor">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1 class="poppins-bold">Travel First Girls</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i><span style="padding-left: 5px;"></span>Home Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-map"></i><span style="padding-left: 5px;"></span>Full list</a>
+              </li>
+            </ul>
+            
+          </div>
+          <!-- Search form -->
+          <div>
+            <form class="d-flex" role="search" >
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <!-- Posts gallery -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><a href="./page1.html"><img src="./images/Rome1-cropped.png" class="d-block w-100" alt="Rome"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="./page1.html"><h5>Rome</h5></a>
+                  <p>Rome, the Eternal City, is a breathtaking tapestry of ancient ruins, Renaissance art, and vibrant street life, where history and modernity coexist in every piazza and cobblestone street.
+                </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/paris1-cropped.png" class="d-block w-100" alt="Paris">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Paris</h5>
+                  <p>Paris, the City of Light, is a captivating blend of timeless elegance, world-renowned art, and vibrant culture, where every corner tells a story of romance and history..</p>
+                </div>
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- About Us Section -->
+           <div class="container" id="about-us">
+            <div class="row justify-content-evenly">
+                <div class="col">
+                  <img src="./images/profile-photo.png" alt="Our profile photo" id="profilePhoto">
+                </div>
+                <div class="col">
+                  <h1 class="poppins-semibold">About us</h1>
+                  <p>Our website is dedicated to providing in-depth, curated guides to these iconic cities, packed with local insights, hidden gems, and personalized itineraries. Whether you're looking for the best cafes in Montmartre, hidden art galleries in Trastevere, or the must-visit landmarks off the beaten path, we've got you covered. Dive into our expert tips and make your trip unforgettable with authentic experiences that go beyond the typical tourist trail.</p>
+                </div>
+              </div>
+           </div>
+           <!-- Newsletter Section -->
+            <div class="container" id="newsletter-form">
+                <h2>Sign for best travel newsletter!</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Your e-mail adress here &#128071</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="row justify-content-between">
+          <div class="col-4" class="logo">
+            Travel First Girls
+          </div>
+          <div class="col-4" >
+            <p class="text-end"><i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i></p>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-4">
+            <p><small class="text-body-secondary">Copyright 2024 Travel First Girls.</small></p>
+          </div>
+          <div class="col-4" >
+            
+          </div>
+        </div>
+      </footer>
+      
+    <!-- Bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
