@@ -150,8 +150,11 @@ background-color: #8EBBA7;
   }
 
   .page-2 {
-    padding: 58px;
+    
     margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: justify;
   }
 
   .img-fluid {
@@ -222,4 +225,8 @@ background-color: #8EBBA7;
       width: 48%;
       object-fit: cover;
       border-radius: 5px;
+    }
+
+    h2 {
+      color: #3e4642;
     }
